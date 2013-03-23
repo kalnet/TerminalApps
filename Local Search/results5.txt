@@ -1,0 +1,10 @@
+For the knapsack problem, our greedy algorithms ran fast because our neighborhood
+was less complex than the graph coloring, only switching 1 boolean value. None of
+the random algorithms did well even though many of them were being considered.
+This held true for the graph coloring problems as well although the greedy
+algorithm took more time becuase we were considering changes to every node to 
+every available color to see which was the best. Another reason for the length
+of time was the steepest part of the steepest path. We had to go through every
+neighbor before we chose a path to go down. These solutions were good though
+and any algorithm can be used with the 2-opt or 3-opt neighborhoods to make
+them better.

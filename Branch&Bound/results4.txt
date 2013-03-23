@@ -1,0 +1,8 @@
+The branch and bound technique we used to solve the knapsack problem
+resembled the exhaustive algorithm in speed. That is because the branch
+and bound algorithm is essentially an exhaustive search with bounds that
+may cut of a branch to save a little time and a lot of bad solutions.
+The answers we got, however, were much more accurate than the exhaustive
+search and even slightly more accurate than the greedy algorithm we used
+for the second project. The bounds help in finding a good solution early
+because we are choosing the paths most likely to have the highes values.
